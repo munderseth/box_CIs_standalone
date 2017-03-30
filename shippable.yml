@@ -8,7 +8,7 @@ build:
    - printenv > printenv.txt
   
   on_success:
-   - testspace test.xml space-1
+   - testspace test.xml 
   
   on_failure:
-   - testspace test.xml space-1
+   - testspace test.xml 
