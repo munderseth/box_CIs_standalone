@@ -11,4 +11,4 @@ test:
     - printenv > printenv.txt
     
   post:
-    - testspace test.xml circle 
+    - testspace test.xml printenv.txt circle 

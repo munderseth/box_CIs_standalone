@@ -8,7 +8,7 @@ build:
    - printenv > printenv.txt
   
   on_success:
-   - testspace test.xml shippable
+   - testspace test.xml printenv.txt shippable
   
   on_failure:
-   - testspace test.xml shippable
+   - testspace test.xml printenv.txt shippable
