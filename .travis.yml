@@ -10,4 +10,4 @@ script:
   - printenv > printenv.txt
  
 after_script:
-  - testspace test.xml printenv.txt travis
+  - testspace test.xml printenv.txt "travis"
